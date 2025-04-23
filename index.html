@@ -1,0 +1,3612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerala Police - Say No To Drugs</title>
+    <meta name="description" content="Join Kerala Police in our mission to create a drug-free society. Learn about our initiatives, find resources, and take a stand for a healthier future.">
+    <meta property="og:title" content="Kerala Police - Say No To Drugs">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sayno2drugs-kerala.com">
+    <meta property="og:image" content="images/og-image.jpg">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Reset and base styles */
+        :root {
+            --primary: #003366;
+            --primary-light: #004d99;
+            --primary-dark: #002244;
+            --secondary: #e6b800;
+            --secondary-light: #ffd11a;
+            --secondary-dark: #cc9900;
+            --accent: #e74c3c;
+            --accent-light: #f55a4e;
+            --accent-dark: #c0392b;
+            --text: #333333;
+            --text-light: #666666;
+            --bg-light: #ffffff;
+            --bg-dark: #f5f5f5;
+            --success: #2ecc71;
+            --warning: #f39c12;
+            --info: #3498db;
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+            --shadow-md: 0 4px 6px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.08);
+            --shadow-lg: 0 10px 20px rgba(0,0,0,0.15), 0 3px 6px rgba(0,0,0,0.1);
+            --shadow-hover: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            --border-radius-sm: 4px;
+            --border-radius-md: 8px;
+            --border-radius-lg: 12px;
+            --border-radius-xl: 20px;
+            --border-radius-full: 9999px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 80px;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+            background-color: var(--bg-light);
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .section-padding {
+            padding: 100px 0;
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 80px;
+            height: 4px;
+            background: var(--secondary);
+            border-radius: 2px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .mb-5 {
+            margin-bottom: 3rem;
+        }
+
+        .mb-4 {
+            margin-bottom: 2rem;
+        }
+
+        .mb-3 {
+            margin-bottom: 1.5rem;
+        }
+
+        .highlight {
+            color: var(--secondary);
+        }
+
+        /* Header styles */
+        header {
+            background: var(--bg-light);
+            padding: 15px 0;
+            box-shadow: var(--shadow-sm);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            transition: var(--transition);
+        }
+
+        header.scrolled {
+            padding: 10px 0;
+            box-shadow: var(--shadow-md);
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+
+        .logo::before {
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            background-color: var(--secondary);
+            border-radius: 50%;
+            left: -10px;
+            z-index: -1;
+            opacity: 0.3;
+            animation: pulse-logo 3s infinite;
+        }
+
+        @keyframes pulse-logo {
+            0% {
+                transform: scale(1);
+                opacity: 0.3;
+            }
+            50% {
+                transform: scale(1.2);
+                opacity: 0.1;
+            }
+            100% {
+                transform: scale(1);
+                opacity: 0.3;
+            }
+        }
+
+        .logo img {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .logo-text h1 {
+            color: var(--primary);
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 1.2;
+            position: relative;
+            display: inline-block;
+        }
+
+        .logo-text h1::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: var(--secondary);
+            transition: width 0.3s ease;
+        }
+
+        .logo:hover .logo-text h1::after {
+            width: 100%;
+        }
+
+        .logo-text p {
+            color: var(--text-light);
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            margin-right: 20px;
+        }
+
+        .nav-links li {
+            margin: 0 15px;
+            position: relative;
+        }
+
+        .nav-links a {
+            color: var(--primary);
+            font-weight: 500;
+            transition: var(--transition);
+            padding: 5px 0;
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent);
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--accent);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        .nav-links a.active::after {
+            width: 100%;
+        }
+
+        .emergency-btn {
+            background-color: var(--accent);
+            color: white;
+            padding: 10px 20px;
+            border-radius: var(--border-radius-full);
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            transition: var(--transition);
+            box-shadow: var(--shadow-sm);
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .emergency-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, var(--accent-dark), var(--accent), var(--accent-light));
+            z-index: -1;
+            background-size: 200% 200%;
+            animation: gradient-animation 3s ease infinite;
+        }
+
+        @keyframes gradient-animation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .emergency-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .emergency-btn i {
+            margin-right: 8px;
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--primary);
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        /* Hero section */
+        .hero {
+            display: flex;
+            min-height: 100vh;
+            align-items: stretch;
+            margin-top: 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(0, 51, 102, 0.9) 0%, rgba(0, 51, 102, 0.7) 100%);
+            z-index: 1;
+        }
+
+        .hero-content {
+            width: 50%;
+            padding: 80px 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            z-index: 2;
+            color: white;
+            background-color: var(--primary);
+            clip-path: polygon(0 0, 100% 0, 85% 100%, 0 100%);
+        }
+
+        .hero-image {
+            width: 50%;
+            background: url('https://as2.ftcdn.net/v2/jpg/10/92/10/59/1000_F_1092105946_SOubWM04kMkMQOVTDzu5EJBl2Bx3nfll.jpg') no-repeat center/cover;
+            position: relative;
+            transition: transform 10s ease;
+        }
+
+        .hero:hover .hero-image {
+            transform: scale(1.1);
+        }
+
+        .hero-title {
+            font-size: 3.5rem;
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            font-weight: 800;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.8s forwards 0.3s;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero-subtitle {
+            color: var(--secondary);
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.8s forwards 0.5s;
+            position: relative;
+            display: inline-block;
+        }
+
+        .hero-subtitle::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background-color: var(--secondary);
+            animation: width-animation 3s infinite;
+        }
+
+        @keyframes width-animation {
+            0% {
+                width: 50px;
+            }
+            50% {
+                width: 100px;
+            }
+            100% {
+                width: 50px;
+            }
+        }
+
+        .hero-text {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            line-height: 1.8;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.8s forwards 0.7s;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 15px;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeInUp 0.8s forwards 0.9s;
+        }
+
+        .btn {
+            padding: 12px 30px;
+            border-radius: var(--border-radius-full);
+            font-weight: 600;
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: var(--shadow-sm);
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            transition: all 0.4s;
+            z-index: -1;
+        }
+
+        .btn:hover::before {
+            left: 0;
+        }
+
+        .btn i {
+            margin-right: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .btn:hover i {
+            transform: translateX(-3px);
+        }
+
+        .btn-primary {
+            background-color: var(--secondary);
+            color: var(--primary);
+        }
+
+        .btn-primary:hover {
+            background-color: var(--secondary-light);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-secondary {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .scroll-down {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            font-size: 2rem;
+            z-index: 2;
+            animation: bounce 2s infinite;
+            cursor: pointer;
+            opacity: 0.8;
+            transition: var(--transition);
+        }
+
+        .scroll-down:hover {
+            opacity: 1;
+        }
+
+        /* Interactive Drug Facts Slider */
+        .drug-facts-slider {
+            position: absolute;
+            bottom: 80px;
+            right: 30px;
+            z-index: 3;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            padding: 20px;
+            border-radius: var(--border-radius-lg);
+            width: 300px;
+            box-shadow: var(--shadow-md);
+            border-left: 4px solid var(--secondary);
+            opacity: 0;
+            transform: translateX(50px);
+            animation: fadeInLeft 0.8s forwards 1.2s;
+        }
+
+        @keyframes fadeInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .fact-title {
+            font-size: 1rem;
+            font-weight: 600;
+            color: white;
+            margin-bottom: 10px;
+        }
+
+        .fact-content {
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 15px;
+        }
+
+        .fact-nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .fact-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .fact-dot.active {
+            background: var(--secondary);
+            transform: scale(1.2);
+        }
+
+        /* Stats section */
+        .stats {
+            padding: 80px 0;
+            background: var(--bg-dark);
+            position: relative;
+        }
+
+        .stats::before {
+            content: '';
+            position: absolute;
+            top: -50px;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            background: linear-gradient(to bottom right, transparent 49%, var(--bg-dark) 50%);
+        }
+
+        .stats-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+        }
+
+        .stat-card {
+            background: white;
+            border-radius: var(--border-radius-lg);
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: var(--transition);
+            box-shadow: var(--shadow-sm);
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+            transform: translateY(50px);
+            opacity: 0;
+        }
+
+        .stat-card.active {
+            transform: translateY(0);
+            opacity: 1;
+            transition: transform 0.6s ease, opacity 0.6s ease;
+        }
+
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: var(--primary);
+            z-index: -1;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .stat-card:hover .stat-icon {
+            transform: scale(1.1);
+            background-color: var(--primary);
+        }
+
+        .stat-icon {
+            width: 80px;
+            height: 80px;
+            background-color: var(--secondary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+            color: white;
+            font-size: 30px;
+            transition: var(--transition);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .stat-number {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 10px;
+            line-height: 1;
+            position: relative;
+        }
+
+        .stat-number::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 30px;
+            height: 3px;
+            background-color: var(--secondary);
+            border-radius: 3px;
+        }
+
+        .stat-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 10px;
+        }
+
+        .stat-subtitle {
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        /* About section */
+        .about {
+            padding: 100px 0;
+            background: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .about::before {
+            content: '';
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 300px;
+            height: 300px;
+            background-color: rgba(0, 51, 102, 0.05);
+            border-radius: 50%;
+            z-index: 0;
+        }
+
+        .about::after {
+            content: '';
+            position: absolute;
+            bottom: -100px;
+            left: -100px;
+            width: 200px;
+            height: 200px;
+            background-color: rgba(230, 184, 0, 0.05);
+            border-radius: 50%;
+            z-index: 0;
+        }
+
+        .about-container {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .about-content {
+            flex: 1;
+        }
+
+        .about-image {
+            flex: 1;
+            position: relative;
+        }
+
+        .about-img {
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-md);
+            width: 100%;
+            height: auto;
+            transition: transform 0.5s ease;
+        }
+
+        .about-image:hover .about-img {
+            transform: scale(1.03);
+        }
+
+        .about-badge {
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+            background: var(--secondary);
+            color: var(--primary);
+            padding: 15px 25px;
+            border-radius: var(--border-radius-lg);
+            font-weight: 700;
+            box-shadow: var(--shadow-md);
+            transition: transform 0.3s ease;
+        }
+
+        .about-image:hover .about-badge {
+            transform: translateY(-5px);
+        }
+
+        .about-text {
+            margin-bottom: 1.5rem;
+            color: var(--text);
+            position: relative;
+            padding-left: 20px;
+            border-left: 3px solid var(--primary);
+        }
+
+        /* Interactive Timeline */
+        .timeline {
+            margin: 50px 0;
+            position: relative;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background-color: var(--primary);
+            border-radius: 4px;
+        }
+
+        .timeline-item {
+            margin-bottom: 50px;
+            position: relative;
+            display: flex;
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .timeline-item.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .timeline-item:nth-child(odd) {
+            justify-content: flex-start;
+            padding-right: 50%;
+        }
+
+        .timeline-item:nth-child(even) {
+            justify-content: flex-end;
+            padding-left: 50%;
+        }
+
+        .timeline-content {
+            background-color: white;
+            padding: 25px;
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-md);
+            width: 80%;
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .timeline-content:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .timeline-item:nth-child(odd) .timeline-content::after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            right: -10px;
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            transform: rotate(45deg);
+            box-shadow: 2px -2px 2px rgba(0,0,0,0.05);
+        }
+
+        .timeline-item:nth-child(even) .timeline-content::after {
+            content: '';
+            position: absolute;
+            top: 20px;
+            left: -10px;
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            transform: rotate(45deg);
+            box-shadow: -2px 2px 2px rgba(0,0,0,0.05);
+        }
+
+        .timeline-dot {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 20px;
+            background-color: var(--secondary);
+            border-radius: 50%;
+            z-index: 2;
+            box-shadow: 0 0 0 4px white;
+        }
+
+        .timeline-date {
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .timeline-title {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: var(--text);
+        }
+
+        .timeline-text {
+            color: var(--text-light);
+        }
+
+        /* Services section */
+        .services {
+            padding: 100px 0;
+            background: var(--bg-dark);
+            position: relative;
+        }
+
+        .services-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .service-card {
+            background: white;
+            border-radius: var(--border-radius-lg);
+            padding: 30px;
+            transition: var(--transition);
+            box-shadow: var(--shadow-sm);
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+            transform: translateY(50px);
+            opacity: 0;
+        }
+
+        .service-card.active {
+            transform: translateY(0);
+            opacity: 1;
+            transition: transform 0.6s ease, opacity 0.6s ease;
+        }
+
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+            background: var(--primary);
+            z-index: -1;
+            transition: var(--transition);
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .service-card:hover::before {
+            width: 100%;
+            opacity: 0.05;
+        }
+
+        .service-icon {
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .service-card:hover .service-icon {
+            transform: scale(1.1);
+            color: var(--secondary);
+        }
+
+        .service-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: var(--primary);
+        }
+
+        .service-text {
+            color: var(--text);
+            margin-bottom: 20px;
+        }
+
+        .service-link {
+            display: inline-flex;
+            align-items: center;
+            color: var(--primary);
+            font-weight: 600;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .service-link::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: var(--secondary);
+            transition: width 0.3s ease;
+        }
+
+        .service-link:hover::after {
+            width: 100%;
+        }
+
+        .service-link i {
+            margin-left: 5px;
+            transition: var(--transition);
+        }
+
+        .service-link:hover {
+            color: var(--secondary);
+        }
+
+        .service-link:hover i {
+            transform: translateX(5px);
+        }
+
+        /* Interactive Map Section */
+        .map-section {
+            padding: 100px 0;
+            background-color: white;
+            position: relative;
+        }
+
+        .map-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .map-wrapper {
+            width: 100%;
+            height: 500px;
+            position: relative;
+            border-radius: var(--border-radius-lg);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+            margin-top: 30px;
+        }
+
+        .map-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 51, 102, 0.1);
+            pointer-events: none;
+            z-index: 2;
+        }
+
+        .map {
+            width: 100%;
+            height: 100%;
+            background: url('https://www.mapsofindia.com/maps/kerala/kerala-district.jpg') no-repeat center/cover;
+            position: relative;
+        }
+
+        .map-marker {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: var(--accent);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            z-index: 3;
+        }
+
+        .map-marker::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 30px;
+            height: 30px;
+            background-color: var(--accent);
+            border-radius: 50%;
+            opacity: 0.3;
+            animation: pulse-marker 2s infinite;
+        }
+
+        @keyframes pulse-marker {
+            0% {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 0.3;
+            }
+            50% {
+                transform: translate(-50%, -50%) scale(1.5);
+                opacity: 0.1;
+            }
+            100% {
+                transform: translate(-50%, -50%) scale(1);
+                opacity: 0.3;
+            }
+        }
+
+        .map-marker:hover {
+            transform: translate(-50%, -50%) scale(1.2);
+            box-shadow: 0 0 10px rgba(231, 76, 60, 0.5);
+            z-index: 4;
+        }
+
+        .map-popup {
+            position: absolute;
+            bottom: 30px;
+            left: 30px;
+            background-color: white;
+            padding: 20px;
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-md);
+            width: 300px;
+            z-index: 5;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+            pointer-events: none;
+        }
+
+        .map-popup.active {
+            opacity: 1;
+            transform: translateY(0);
+            pointer-events: all;
+        }
+
+        .map-popup-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .map-popup-content {
+            color: var(--text);
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+
+        .map-popup-link {
+            color: var(--primary);
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .map-popup-link i {
+            margin-left: 5px;
+            transition: transform 0.3s ease;
+        }
+
+        .map-popup-link:hover i {
+            transform: translateX(3px);
+        }
+
+        .map-popup-close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: none;
+            border: none;
+            color: var(--text-light);
+            cursor: pointer;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+
+        .map-popup-close:hover {
+            color: var(--accent);
+        }
+
+        /* Testimonials section */
+        .testimonials {
+            padding: 100px 0;
+            background: white;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .testimonials::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at top right, rgba(0, 51, 102, 0.05) 0%, transparent 70%);
+            z-index: 0;
+        }
+
+        .testimonials-container {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .testimonial-slider {
+            position: relative;
+            overflow: hidden;
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-md);
+        }
+
+        .testimonial-slide {
+            display: none;
+            animation: fadeEffect 1s;
+        }
+
+        .testimonial-slide.active {
+            display: block;
+        }
+
+        @keyframes fadeEffect {
+            from {opacity: 0.7;}
+            to {opacity: 1;}
+        }
+
+        .testimonial {
+            background: var(--bg-dark);
+            border-radius: var(--border-radius-lg);
+            padding: 30px;
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .testimonial:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 20px;
+            position: relative;
+            padding-left: 30px;
+        }
+
+        .testimonial-text::before {
+            content: '"';
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 3rem;
+            color: var(--secondary);
+            line-height: 1;
+            font-family: serif;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+        }
+
+        .testimonial-author img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin-right: 15px;
+            object-fit: cover;
+            border: 3px solid var(--secondary);
+            transition: transform 0.3s ease;
+        }
+
+        .testimonial:hover .testimonial-author img {
+            transform: scale(1.1);
+        }
+
+        .author-info h4 {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .author-info p {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        .testimonial-nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .testimonial-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: rgba(0, 51, 102, 0.2);
+            margin: 0 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .testimonial-dot.active {
+            background-color: var(--primary);
+            transform: scale(1.2);
+        }
+
+        .testimonial-arrows {
+            display: flex;
+            justify-content: space-between;
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            transform: translateY(-50%);
+            z-index: 2;
+            padding: 0 10px;
+        }
+
+        .testimonial-arrow {
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: var(--shadow-sm);
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .testimonial-arrow:hover {
+            background-color: var(--primary);
+            color: white;
+            transform: scale(1.1);
+        }
+
+        /* CTA section */
+        .cta {
+            padding: 80px 0;
+            background: var(--primary);
+            color: white;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
+            animation: pulse 15s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(0.8);
+                opacity: 0.5;
+            }
+            50% {
+                transform: scale(1.2);
+                opacity: 0.8;
+            }
+            100% {
+                transform: scale(0.8);
+                opacity: 0.5;
+            }
+        }
+
+        .cta-title {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: white;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-text {
+            max-width: 700px;
+            margin: 0 auto 30px;
+            font-size: 1.1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Interactive Quiz Section */
+        .quiz-section {
+            padding: 100px 0;
+            background-color: var(--bg-dark);
+            position: relative;
+        }
+
+        .quiz-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-md);
+            overflow: hidden;
+        }
+
+        .quiz-header {
+            background-color: var(--primary);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .quiz-title {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+        }
+
+        .quiz-description {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        .quiz-progress {
+            height: 5px;
+            background-color: rgba(255, 255, 255, 0.2);
+            margin-top: 15px;
+            border-radius: var(--border-radius-full);
+            overflow: hidden;
+        }
+
+        .quiz-progress-bar {
+            height: 100%;
+            background-color: var(--secondary);
+            width: 0;
+            transition: width 0.3s ease;
+        }
+
+        .quiz-content {
+            padding: 30px;
+        }
+
+        .quiz-question {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: var(--primary);
+        }
+
+        .quiz-options {
+            display: grid;
+            gap: 15px;
+        }
+
+        .quiz-option {
+            padding: 15px;
+            border: 2px solid #eee;
+            border-radius: var(--border-radius-md);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+        }
+
+        .quiz-option:hover {
+            border-color: var(--primary);
+            background-color: rgba(0, 51, 102, 0.05);
+        }
+
+        .quiz-option.selected {
+            border-color: var(--primary);
+            background-color: rgba(0, 51, 102, 0.1);
+        }
+
+        .quiz-option.correct {
+            border-color: var(--success);
+            background-color: rgba(46, 204, 113, 0.1);
+        }
+
+        .quiz-option.incorrect {
+            border-color: var(--accent);
+            background-color: rgba(231, 76, 60, 0.1);
+        }
+
+        .quiz-option-marker {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            border: 2px solid #ddd;
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            color: #999;
+            transition: all 0.3s ease;
+        }
+
+        .quiz-option.selected .quiz-option-marker {
+            border-color: var(--primary);
+            background-color: var(--primary);
+            color: white;
+        }
+
+        .quiz-option.correct .quiz-option-marker {
+            border-color: var(--success);
+            background-color: var(--success);
+            color: white;
+        }
+
+        .quiz-option.incorrect .quiz-option-marker {
+            border-color: var(--accent);
+            background-color: var(--accent);
+            color: white;
+        }
+
+        .quiz-footer {
+            padding: 20px 30px;
+            border-top: 1px solid #eee;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .quiz-btn {
+            padding: 10px 20px;
+            border-radius: var(--border-radius-md);
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .quiz-btn-prev {
+            background-color: #f5f5f5;
+            color: var(--text);
+        }
+
+        .quiz-btn-prev:hover {
+            background-color: #eee;
+        }
+
+        .quiz-btn-next {
+            background-color: var(--primary);
+            color: white;
+        }
+
+        .quiz-btn-next:hover {
+            background-color: var(--primary-dark);
+        }
+
+        .quiz-result {
+            text-align: center;
+            padding: 30px;
+            display: none;
+        }
+
+        .quiz-score {
+            font-size: 2rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+
+        .quiz-feedback {
+            margin-bottom: 30px;
+            color: var(--text);
+        }
+
+        /* Contact section */
+        .contact {
+            padding: 100px 0;
+            background: var(--bg-dark);
+        }
+
+        .contact-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 50px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 30px;
+            transition: transform 0.3s ease;
+            opacity: 0;
+            transform: translateX(-30px);
+        }
+
+        .contact-item.active {
+            opacity: 1;
+            transform: translateX(0);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .contact-item:hover {
+            transform: translateX(5px);
+        }
+
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background: var(--primary);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 20px;
+            margin-right: 15px;
+            flex-shrink: 0;
+            transition: background-color 0.3s ease;
+        }
+
+        .contact-item:hover .contact-icon {
+            background-color: var(--secondary);
+        }
+
+        .contact-details h4 {
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+            color: var(--primary);
+        }
+
+        .contact-details p, .contact-details a {
+            color: var(--text);
+            transition: var(--transition);
+        }
+
+        .contact-details a:hover {
+            color: var(--primary);
+        }
+
+        .contact-form {
+            background: white;
+            padding: 30px;
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow-md);
+            transition: transform 0.3s ease;
+            opacity: 0;
+            transform: translateX(30px);
+        }
+
+        .contact-form.active {
+            opacity: 1;
+            transform: translateX(0);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+
+        .contact-form:hover {
+            transform: translateY(-5px);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            border-radius: var(--border-radius-md);
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(0, 51, 102, 0.1);
+        }
+
+        .form-control:focus + .form-label,
+        .form-control:not(:placeholder-shown) + .form-label {
+            top: -10px;
+            left: 10px;
+            font-size: 0.8rem;
+            background: white;
+            padding: 0 5px;
+        }
+
+        .form-label {
+            position: absolute;
+            top: 12px;
+            left: 15px;
+            color: var(--text-light);
+            transition: var(--transition);
+            pointer-events: none;
+        }
+
+        textarea.form-control {
+            min-height: 150px;
+            resize: vertical;
+        }
+
+        .btn-submit {
+            background: var(--primary);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: var(--border-radius-md);
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn-submit::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.1);
+            transition: all 0.4s;
+            z-index: 1;
+        }
+
+        .btn-submit:hover::before {
+            left: 0;
+        }
+
+        .btn-submit:hover {
+            background: var(--primary-dark);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--primary-dark);
+            color: white;
+            padding: 60px 0 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(to right, var(--primary), var(--secondary), var(--accent), var(--secondary), var(--primary));
+            background-size: 200% 100%;
+            animation: gradient 5s ease infinite;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .footer-container {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .footer-logo {
+            margin-bottom: 20px;
+        }
+
+        .footer-logo img {
+            height: 50px;
+        }
+
+        .footer-about p {
+            margin-bottom: 20px;
+            color: #ccc;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+
+        .social-link {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .social-link::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--secondary);
+            border-radius: 50%;
+            transform: scale(0);
+            transition: transform 0.3s ease;
+        }
+
+        .social-link i {
+            position: relative;
+            z-index: 1;
+        }
+
+        .social-link:hover::before {
+            transform: scale(1);
+        }
+
+        .social-link:hover {
+            transform: translateY(-3px);
+        }
+
+        .footer-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .footer-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            height: 3px;
+            background: var(--secondary);
+            transition: width 0.3s ease;
+        }
+
+        .footer-title:hover::after {
+            width: 60px;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+
+        .footer-links a {
+            color: #ccc;
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+        }
+
+        .footer-links a i {
+            margin-right: 8px;
+            font-size: 12px;
+            transition: transform 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--secondary);
+            transform: translateX(5px);
+        }
+
+        .footer-links a:hover i {
+            transform: translateX(3px);
+        }
+
+        .footer-contact p {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            color: #ccc;
+        }
+
+        .footer-contact i {
+            margin-right: 10px;
+            color: var(--secondary);
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #ccc;
+            font-size: 0.9rem;
+        }
+
+        /* Back to top button */
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            cursor: pointer;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+            z-index: 999;
+            box-shadow: var(--shadow-md);
+        }
+
+        .back-to-top.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            background: var(--secondary);
+            transform: translateY(-5px);
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0) translateX(-50%);
+            }
+            40% {
+                transform: translateY(-20px) translateX(-50%);
+            }
+            60% {
+                transform: translateY(-10px) translateX(-50%);
+            }
+        }
+
+        .fade-in {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+
+        .fade-in.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* Slide in animations */
+        .slide-in-left {
+            opacity: 0;
+            transform: translateX(-50px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+
+        .slide-in-right {
+            opacity: 0;
+            transform: translateX(50px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+
+        .slide-in-left.active, .slide-in-right.active {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        /* Mobile menu */
+        .mobile-menu {
+            position: fixed;
+            top: 0;
+            right: -300px;
+            width: 300px;
+            height: 100vh;
+            background: white;
+            z-index: 1001;
+            padding: 20px;
+            transition: var(--transition);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .mobile-menu.active {
+            right: 0;
+        }
+
+        .close-menu {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: var(--primary);
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .close-menu:hover {
+            transform: rotate(90deg);
+            color: var(--accent);
+        }
+
+        .mobile-nav-links {
+            list-style: none;
+            margin-top: 50px;
+        }
+
+        .mobile-nav-links li {
+            margin-bottom: 15px;
+        }
+
+        .mobile-nav-links a {
+            color: var(--primary);
+            font-weight: 500;
+            font-size: 1.2rem;
+            display: block;
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+            transition: var(--transition);
+        }
+
+        .mobile-nav-links a:hover {
+            color: var(--secondary);
+            padding-left: 10px;
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+            backdrop-filter: blur(5px);
+        }
+
+        .overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        /* Preloader */
+        .preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--primary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+        }
+
+        .preloader.fade-out {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .loader {
+            position: relative;
+            width: 80px;
+            height: 80px;
+        }
+
+        .loader:before, .loader:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            background-color: var(--secondary);
+            opacity: 0.6;
+            animation: pulse-loader 2s infinite ease-in-out;
+        }
+
+        .loader:after {
+            animation-delay: -1s;
+        }
+
+        @keyframes pulse-loader {
+            0%, 100% {
+                transform: scale(0);
+            }
+            50% {
+                transform: scale(1);
+            }
+        }
+
+        /* Accessibility focus styles */
+        a:focus, button:focus, input:focus, select:focus, textarea:focus {
+            outline: 3px solid var(--secondary);
+            outline-offset: 2px;
+        }
+
+        .skip-link {
+            position: absolute;
+            top: -40px;
+            left: 0;
+            background: var(--primary);
+            color: white;
+            padding: 8px 15px;
+            z-index: 1002;
+            transition: top 0.3s ease;
+        }
+
+        .skip-link:focus {
+            top: 0;
+        }
+
+        /* Notification system */
+        .notification {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: white;
+            border-radius: var(--border-radius-md);
+            box-shadow: var(--shadow-lg);
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-width: 300px;
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+            z-index: 9999;
+        }
+
+        .notification.active {
+            transform: translateX(0);
+        }
+
+        .notification-content {
+            display: flex;
+            align-items: center;
+        }
+
+        .notification-content i {
+            margin-right: 10px;
+            font-size: 1.2rem;
+        }
+
+        .notification-success i {
+            color: var(--success);
+        }
+
+        .notification-error i {
+            color: var(--accent);
+        }
+
+        .notification-close {
+            background: none;
+            border: none;
+            color: var(--text-light);
+            cursor: pointer;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+        }
+
+        .notification-close:hover {
+            color: var(--accent);
+        }
+
+        /* Responsive styles */
+        @media (max-width: 1200px) {
+            .hero-title {
+                font-size: 3rem;
+            }
+            
+            .drug-facts-slider {
+                bottom: 30px;
+                right: 20px;
+                width: 250px;
+            }
+        }
+
+        @media (max-width: 992px) {
+            .section-padding {
+                padding: 80px 0;
+            }
+
+            .hero {
+                flex-direction: column;
+                min-height: auto;
+            }
+
+            .hero-content, .hero-image {
+                width: 100%;
+            }
+
+            .hero-content {
+                clip-path: none;
+            }
+
+            .hero-image {
+                min-height: 400px;
+            }
+
+            .stats-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .about-container {
+                flex-direction: column;
+            }
+
+            .contact-container {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .services-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .timeline-item:nth-child(odd),
+            .timeline-item:nth-child(even) {
+                padding-right: 0;
+                padding-left: 30px;
+                justify-content: flex-start;
+            }
+
+            .timeline::before {
+                left: 15px;
+            }
+
+            .timeline-dot {
+                left: 15px;
+            }
+
+            .timeline-item:nth-child(even) .timeline-content::after {
+                left: -10px;
+            }
+
+            .timeline-item:nth-child(odd) .timeline-content::after {
+                display: none;
+            }
+
+            .drug-facts-slider {
+                position: relative;
+                bottom: auto;
+                right: auto;
+                margin: 30px auto 0;
+                width: 90%;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .hero-content {
+                padding: 60px 30px;
+            }
+
+            .hero-title {
+                font-size: 2.5rem;
+            }
+
+            .hero-subtitle {
+                font-size: 1.2rem;
+            }
+
+            .services-container {
+                grid-template-columns: 1fr;
+            }
+
+            .footer-container {
+                grid-template-columns: 1fr;
+                gap: 40px;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .map-wrapper {
+                height: 400px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .stats-container {
+                grid-template-columns: 1fr;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .btn {
+                width: 100%;
+            }
+
+            .hero-title {
+                font-size: 2rem;
+            }
+
+            .quiz-option {
+                padding: 12px;
+            }
+
+            .quiz-footer {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .quiz-btn {
+                width: 100%;
+            }
+        }
+
+        /* Dark mode toggle */
+        .dark-mode-toggle {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            width: 50px;
+            height: 50px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            cursor: pointer;
+            z-index: 999;
+            box-shadow: var(--shadow-md);
+            transition: var(--transition);
+        }
+
+        .dark-mode-toggle:hover {
+            background: var(--secondary);
+            transform: translateY(-5px);
+        }
+
+        /* Dark mode styles */
+        body.dark-mode {
+            --bg-light: #121212;
+            --bg-dark: #1e1e1e;
+            --text: #e0e0e0;
+            --text-light: #a0a0a0;
+            color: var(--text);
+        }
+
+        body.dark-mode header {
+            background: rgba(18, 18, 18, 0.95);
+        }
+
+        body.dark-mode header.scrolled {
+            background: rgba(18, 18, 18, 0.95);
+        }
+
+        body.dark-mode .logo-text h1 {
+            color: white;
+        }
+
+        body.dark-mode .nav-links a {
+            color: white;
+        }
+
+        body.dark-mode .mobile-menu {
+            background: #121212;
+        }
+
+        body.dark-mode .mobile-nav-links a {
+            color: white;
+            border-bottom-color: #333;
+        }
+
+        body.dark-mode .close-menu {
+            color: white;
+        }
+
+        body.dark-mode .section-title {
+            color: white;
+        }
+
+        body.dark-mode .stat-card,
+        body.dark-mode .service-card,
+        body.dark-mode .contact-form,
+        body.dark-mode .timeline-content,
+        body.dark-mode .quiz-container,
+        body.dark-mode .map-popup {
+            background: #1e1e1e;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        body.dark-mode .testimonial {
+            background: #1e1e1e;
+        }
+
+        body.dark-mode .form-control {
+            background: #2d2d2d;
+            border-color: #444;
+            color: white;
+        }
+
+        body.dark-mode .form-control:focus + .form-label,
+        body.dark-mode .form-control:not(:placeholder-shown) + .form-label {
+            background: #1e1e1e;
+        }
+
+        body.dark-mode .stat-number {
+            color: var(--secondary);
+        }
+
+        body.dark-mode .service-title {
+            color: var(--secondary);
+        }
+
+        body.dark-mode .contact-details h4 {
+            color: var(--secondary);
+        }
+
+        body.dark-mode .quiz-option {
+            border-color: #333;
+        }
+
+        body.dark-mode .quiz-option:hover {
+            background-color: rgba(255, 255, 255, 0.05);
+        }
+
+        body.dark-mode .quiz-btn-prev {
+            background-color: #333;
+            color: #eee;
+        }
+
+        body.dark-mode .notification {
+            background-color: #1e1e1e;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Skip to content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-text">
+                    <h1>Kerala Police</h1>
+                    <p>Say No To Drugs</p>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Initiatives</a></li>
+                    <li><a href="#timeline">Journey</a></li>
+                    <li><a href="#map">Locations</a></li>
+                    <li><a href="#quiz">Quiz</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="tel:1098" class="emergency-btn" aria-label="Call emergency number 1098">
+                    <i class="fas fa-phone-alt"></i>
+                    Emergency: 1098
+                </a>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open mobile menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="overlay" id="overlay"></div>
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+        <button class="close-menu" id="close-menu" aria-label="Close mobile menu">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul class="mobile-nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Initiatives</a></li>
+            <li><a href="#timeline">Journey</a></li>
+            <li><a href="#map">Locations</a></li>
+            <li><a href="#quiz">Quiz</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h2 class="hero-subtitle">Kerala Police Initiative</h2>
+                <h1 class="hero-title">Say No To Drugs <span class="highlight">For a Safer Kerala</span></h1>
+                <p class="hero-text">
+                    Join the Kerala Police in our mission to create a drug-free society. Together, we can protect our communities and build a healthier future for our children.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-shield-alt"></i>
+                        Report Drug Activity
+                    </a>
+                    <a href="#about" class="btn btn-secondary">
+                        <i class="fas fa-info-circle"></i>
+                        Learn More
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image" aria-label="Kerala landscape image"></div>
+            
+            <!-- Interactive Drug Facts Slider -->
+            <div class="drug-facts-slider" id="drugFactsSlider">
+                <h3 class="fact-title">Did You Know?</h3>
+                <p class="fact-content" id="factContent">Marijuana affects brain development. When used during adolescence, it can impair thinking, memory, and learning functions.</p>
+                <div class="fact-nav">
+                    <span class="fact-dot active" data-index="0"></span>
+                    <span class="fact-dot" data-index="1"></span>
+                    <span class="fact-dot" data-index="2"></span>
+                    <span class="fact-dot" data-index="3"></span>
+                </div>
+            </div>
+            
+            <a href="#stats" class="scroll-down" aria-label="Scroll down to statistics">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats section-padding" id="stats">
+            <div class="container">
+                <h2 class="section-title text-center mb-5 fade-in">Our Impact</h2>
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-handcuffs"></i>
+                        </div>
+                        <h2 class="stat-number" data-count="8500">0</h2>
+                        <h3 class="stat-title">Drug-Related Arrests</h3>
+                        <p class="stat-subtitle">Over the past year</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h2 class="stat-number" data-count="200">0</h2>
+                        <h3 class="stat-title">Awareness Programs</h3>
+                        <p class="stat-subtitle">Conducted statewide</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-hospital"></i>
+                        </div>
+                        <h2 class="stat-number" data-count="50">0</h2>
+                        <h3 class="stat-title">Rehabilitation Centers</h3>
+                        <p class="stat-subtitle">Working with us</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h2 class="stat-number" data-count="75">0</h2>
+                        <h3 class="stat-title">Reduction in Drug Cases</h3>
+                        <p class="stat-subtitle">In target areas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section-padding" id="about">
+            <div class="container">
+                <div class="about-container">
+                    <div class="about-content slide-in-left">
+                        <h2 class="section-title">Our Mission Against Drugs</h2>
+                        <p class="about-text">
+                            The Kerala Police is committed to eradicating drug abuse and trafficking throughout the state. Our comprehensive approach combines enforcement, education, and rehabilitation to address the drug problem from all angles.
+                        </p>
+                        <p class="about-text">
+                            We work closely with communities, schools, and families to raise awareness about the dangers of drug abuse and to provide support for those affected by addiction. Our dedicated officers are trained to identify and respond to drug-related issues effectively.
+                        </p>
+                        <p class="about-text">
+                            Through our coordinated efforts with local organizations, healthcare providers, and government agencies, we are making significant progress in reducing drug abuse and creating safer communities for all residents of Kerala.
+                        </p>
+                        <a href="#services" class="btn btn-primary">
+                            <i class="fas fa-arrow-right"></i>
+                            Our Initiatives
+                        </a>
+                    </div>
+                    <div class="about-image slide-in-right">
+                        <img src="https://sjc.microlink.io/3cNJxzGaD-AvlU3sGtP92xbc71dkrQOJXkgg_Ln2S_yFtaoCxao4E6LePgp6VGIu_sEYFuGgsLsadvg4vMLd8w.jpeg" alt="Kerala landscape" class="about-img">
+                        <div class="about-badge">Since 2018</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section class="about section-padding" id="timeline">
+            <div class="container">
+                <h2 class="section-title text-center mb-5 fade-in">Our Journey</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2018</div>
+                            <h3 class="timeline-title">Campaign Launch</h3>
+                            <p class="timeline-text">The "Say No To Drugs" campaign was officially launched by the Kerala Police to combat rising drug abuse among youth.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2019</div>
+                            <h3 class="timeline-title">School Outreach Program</h3>
+                            <p class="timeline-text">Expanded our reach to over 500 schools across Kerala, educating students about the dangers of drug abuse.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2021</div>
+                            <h3 class="timeline-title">Rehabilitation Partnership</h3>
+                            <p class="timeline-text">Formed partnerships with 50+ rehabilitation centers to provide comprehensive support for recovery.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2023</div>
+                            <h3 class="timeline-title">Digital Campaign</h3>
+                            <p class="timeline-text">Launched digital awareness campaigns reaching millions through social media and online platforms.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">2025</div>
+                            <h3 class="timeline-title">Expanding Horizons</h3>
+                            <p class="timeline-text">Currently working on international collaborations to combat cross-border drug trafficking.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section-padding" id="services">
+            <div class="container">
+                <h2 class="section-title text-center mb-5 fade-in">Our Initiatives</h2>
+                <div class="services-container">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h3 class="service-title">Awareness Campaigns</h3>
+                        <p class="service-text">
+                            We conduct regular awareness programs in schools, colleges, and communities to educate people about the dangers of drug abuse and addiction.
+                        </p>
+                        <a href="#" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <h3 class="service-title">Rehabilitation Support</h3>
+                        <p class="service-text">
+                            We partner with rehabilitation centers to provide support and treatment for individuals struggling with drug addiction.
+                        </p>
+                        <a href="#" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="service-title">Enforcement Operations</h3>
+                        <p class="service-text">
+                            Our specialized teams work tirelessly to identify and dismantle drug trafficking networks operating within the state.
+                        </p>
+                        <a href="#" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3 class="service-title">School Programs</h3>
+                        <p class="service-text">
+                            We implement educational programs in schools to teach students about the risks of drug use and how to resist peer pressure.
+                        </p>
+                        <a href="#" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 class="service-title">Community Engagement</h3>
+                        <p class="service-text">
+                            We engage with local communities to build trust and encourage reporting of drug-related activities.
+                        </p>
+                        <a href="#" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3 class="service-title">Health Partnerships</h3>
+                        <p class="service-text">
+                            We collaborate with healthcare providers to ensure comprehensive care for those affected by drug abuse.
+                        </p>
+                        <a href="#" class="service-link">Learn more <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Map Section -->
+        <section class="map-section" id="map">
+            <div class="container">
+                <h2 class="section-title text-center mb-5 fade-in">Rehabilitation Centers</h2>
+                <p class="text-center mb-4">Explore rehabilitation centers across Kerala that are partnered with our initiative. Click on a marker to learn more.</p>
+                <div class="map-container">
+                    <div class="map-wrapper">
+                        <div class="map">
+                            <div class="map-overlay"></div>
+                            <!-- Map markers will be added dynamically with JavaScript -->
+                        </div>
+                        <div class="map-popup" id="mapPopup">
+                            <button class="map-popup-close" id="mapPopupClose"><i class="fas fa-times"></i></button>
+                            <h3 class="map-popup-title" id="mapPopupTitle">Center Name</h3>
+                            <p class="map-popup-content" id="mapPopupContent">Description of the rehabilitation center and its services.</p>
+                            <a href="#" class="map-popup-link" id="mapPopupLink">Contact Center <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials section-padding">
+            <div class="container">
+                <h2 class="section-title text-center mb-5 fade-in">Success Stories</h2>
+                <div class="testimonials-container">
+                    <div class="testimonial-slider" id="testimonialSlider">
+                        <div class="testimonial-slide active">
+                            <div class="testimonial">
+                                <p class="testimonial-text">
+                                    The awareness program conducted by Kerala Police in our school had a profound impact on our students. They now understand the dangers of drug abuse and are committed to staying drug-free.
+                                </p>
+                                <div class="testimonial-author">
+                                    <img src="https://media.licdn.com/dms/image/v2/D5603AQF-SRH-MvB06g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1730186756303?e=1750896000&v=beta&t=bsnF7xVUsVP6-sN3Md2XicOOX4PAQPs4ZQ1Y-JviXPk" alt="Muhammed Shareef k">
+                                    <div class="author-info">
+                                        <h4>Muhammed Shareef k</h4>
+                                        <p>Principal, St. Teresa's</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="testimonial">
+                                <p class="testimonial-text">
+                                    Thanks to the rehabilitation support provided by Kerala Police, I was able to overcome my addiction and rebuild my life. Their continuous support and guidance have been invaluable in my recovery journey.
+                                </p>
+                                <div class="testimonial-author">
+                                    <img src="https://media.licdn.com/dms/image/v2/D5603AQGRdFp2WxyINw/profile-displayphoto-shrink_400_400/B56ZRjmjD8GoAg-/0/1736837839499?e=1750896000&v=beta&t=bTr0RBk8tsT5c_nV7KU4T3FGI1Fp82XlJag5jZzJ898" alt="Muhammed Niyas MT">
+                                    <div class="author-info">
+                                        <h4>Muhammed Niyas MT</h4>
+                                        <p>Recovered Patient</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-slide">
+                            <div class="testimonial">
+                                <p class="testimonial-text">
+                                    The community engagement programs organized by Kerala Police have transformed our neighborhood. We now have a vigilant community that works together to keep drugs away from our streets and children.
+                                </p>
+                                <div class="testimonial-author">
+                                    <img src="https://media.licdn.com/dms/image/v2/D5603AQHwnV28xM3Z2Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1671032986367?e=1750896000&v=beta&t=feY9ekl2aH7ATKcmaX7yDIb7Z0HXC7BrBCePdc9fms8" alt="Priya Menon">
+                                    <div class="author-info">
+                                        <h4>Nithu Roban</h4>
+                                        <p>Community Leader, Kochi</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-nav">
+                        <span class="testimonial-dot active" data-index="0"></span>
+                        <span class="testimonial-dot" data-index="1"></span>
+                        <span class="testimonial-dot" data-index="2"></span>
+                    </div>
+                    <div class="testimonial-arrows">
+                        <div class="testimonial-arrow" id="prevTestimonial">
+                            <i class="fas fa-chevron-left"></i>
+                        </div>
+                        <div class="testimonial-arrow" id="nextTestimonial">
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Quiz Section -->
+        <section class="quiz-section section-padding" id="quiz">
+            <div class="container">
+                <h2 class="section-title text-center mb-5 fade-in">Test Your Knowledge</h2>
+                <p class="text-center mb-4">Take this quick quiz to test your knowledge about drugs and their effects.</p>
+                <div class="quiz-container" id="quizContainer">
+                    <div class="quiz-header">
+                        <h3 class="quiz-title">Drug Awareness Quiz</h3>
+                        <p class="quiz-description">Answer these questions to test your knowledge</p>
+                        <div class="quiz-progress">
+                            <div class="quiz-progress-bar" id="quizProgressBar"></div>
+                        </div>
+                    </div>
+                    <div class="quiz-content" id="quizContent">
+                        <!-- Quiz questions will be loaded dynamically with JavaScript -->
+                    </div>
+                    <div class="quiz-footer">
+                        <button class="quiz-btn quiz-btn-prev" id="quizPrevBtn">Previous</button>
+                        <button class="quiz-btn quiz-btn-next" id="quizNextBtn">Next</button>
+                    </div>
+                    <div class="quiz-result" id="quizResult">
+                        <h3 class="quiz-title mb-3">Quiz Completed!</h3>
+                        <div class="quiz-score" id="quizScore">Your Score: 0/5</div>
+                        <p class="quiz-feedback" id="quizFeedback">Thank you for taking the quiz!</p>
+                        <button class="btn btn-primary" id="quizRestartBtn">Take Quiz Again</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <h2 class="cta-title fade-in">Join Our Fight Against Drugs</h2>
+                <p class="cta-text fade-in">
+                    Together, we can create a drug-free Kerala. Report suspicious activities, participate in awareness programs, and help those in need of rehabilitation.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary fade-in">
+                        <i class="fas fa-hands-helping"></i>
+                        Get Involved
+                    </a>
+                    <a href="#" class="btn btn-secondary fade-in">
+                        <i class="fas fa-download"></i>
+                        Download Resources
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section-padding" id="contact">
+            <div class="container">
+                <h2 class="section-title text-center mb-5 fade-in">Contact Us</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Our Headquarters</h4>
+                                <p>Police Headquarters, Thiruvananthapuram, Kerala, India - 695010</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone Numbers</h4>
+                                <p>Emergency: <a href="tel:1098">1098</a></p>
+                                <p>Helpline: <a href="tel:+914712721547">+91 471 2721547</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email Addresses</h4>
+                                <p>General Inquiries: <a href="mailto:info@keralapolice.gov.in">info@keralapolice.gov.in</a></p>
+                                <p>Report Drug Activity: <a href="mailto:nodrugs@keralapolice.gov.in">nodrugs@keralapolice.gov.in</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Operating Hours</h4>
+                                <p>Our helpline is available 24/7</p>
+                                <p>Office Hours: Monday to Friday, 9:00 AM to 5:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="name" placeholder=" " required>
+                                <label for="name" class="form-label">Your Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="email" placeholder=" " required>
+                                <label for="email" class="form-label">Your Email</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" class="form-control" id="phone" placeholder=" ">
+                                <label for="phone" class="form-label">Your Phone</label>
+                            </div>
+                            <div class="form-group">
+                                <select class="form-control" id="purpose" required>
+                                    <option value="" selected disabled>Select Purpose</option>
+                                    <option value="report">Report Drug Activity</option>
+                                    <option value="info">Request Information</option>
+                                    <option value="volunteer">Volunteer Opportunities</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="message" placeholder=" " required></textarea>
+                                <label for="message" class="form-label">Your Message</label>
+                            </div>
+                            <button type="submit" class="btn-submit">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <h1 style="color: white; font-size: 24px;">Kerala Police</h1>
+                        <p style="color: #ccc; margin-top: 5px;">Say No To Drugs</p>
+                    </div>
+                    <p>
+                        The Kerala Police is committed to maintaining law and order, preventing crime, and ensuring the safety and security of all citizens. Our anti-drug campaign is part of our broader mission to create a safer society.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3 class="footer-title">Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Our Initiatives</a></li>
+                        <li><a href="#timeline"><i class="fas fa-chevron-right"></i> Our Journey</a></li>
+                        <li><a href="#map"><i class="fas fa-chevron-right"></i> Rehabilitation Centers</a></li>
+                        <li><a href="#quiz"><i class="fas fa-chevron-right"></i> Knowledge Quiz</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3 class="footer-title">Resources</h3>
+                    <ul class="footer-links">
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Drug Facts</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Rehabilitation Centers</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Prevention Tips</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Educational Materials</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3 class="footer-title">Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Police Headquarters, Thiruvananthapuram, Kerala, India - 695010</p>
+                    <p><i class="fas fa-phone-alt"></i> Emergency: 1098</p>
+                    <p><i class="fas fa-envelope"></i> info@keralapolice.gov.in</p>
+                    <p><i class="fas fa-globe"></i> www.keralapolice.gov.in</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Kerala Police - Say No To Drugs. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Dark Mode Toggle -->
+    <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script>
+        // Preloader
+        window.addEventListener('load', function() {
+            const preloader = document.getElementById('preloader');
+            setTimeout(() => {
+                preloader.classList.add('fade-out');
+            }, 1000);
+        });
+
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const closeMenuBtn = document.getElementById('close-menu');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const overlay = document.getElementById('overlay');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.add('active');
+            overlay.classList.add('active');
+            document.body.style.overflow = 'hidden';
+            mobileMenu.setAttribute('aria-hidden', 'false');
+        });
+
+        closeMenuBtn.addEventListener('click', closeMenu);
+        overlay.addEventListener('click', closeMenu);
+
+        function closeMenu() {
+            mobileMenu.classList.remove('active');
+            overlay.classList.remove('active');
+            document.body.style.overflow = 'auto';
+            mobileMenu.setAttribute('aria-hidden', 'true');
+        }
+
+        // Mobile Menu Links
+        const mobileLinks = document.querySelectorAll('.mobile-nav-links a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', closeMenu);
+        });
+
+        // Scroll to Top Button
+        const backToTopBtn = document.getElementById('backToTop');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopBtn.classList.add('active');
+            } else {
+                backToTopBtn.classList.remove('active');
+            }
+        });
+
+        backToTopBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Header Scroll Effect
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Scroll Animation
+        const fadeElements = document.querySelectorAll('.fade-in, .slide-in-left, .slide-in-right, .stat-card, .service-card, .timeline-item, .contact-item, .contact-form');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        fadeElements.forEach(element => {
+            observer.observe(element);
+        });
+
+        // Form Submission
+        const contactForm = document.getElementById('contactForm');
+        if (contactForm) {
+            contactForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                // Form validation
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const message = document.getElementById('message').value;
+                
+                if (!name || !email || !message) {
+                    showNotification('Please fill in all required fields', 'error');
+                    return;
+                }
+                
+                // Email validation
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                if (!emailRegex.test(email)) {
+                    showNotification('Please enter a valid email address', 'error');
+                    return;
+                }
+                
+                // Simulate form submission
+                const submitBtn = contactForm.querySelector('.btn-submit');
+                const originalText = submitBtn.innerHTML;
+                submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+                submitBtn.disabled = true;
+                
+                setTimeout(() => {
+                    showNotification('Thank you for your message! We will get back to you soon.', 'success');
+                    contactForm.reset();
+                    submitBtn.innerHTML = originalText;
+                    submitBtn.disabled = false;
+                }, 2000);
+            });
+        }
+
+        // Notification function
+        function showNotification(message, type) {
+            // Create notification element
+            const notification = document.createElement('div');
+            notification.className = `notification notification-${type}`;
+            notification.innerHTML = `
+                <div class="notification-content">
+                    <i class="fas ${type === 'success' ? 'fa-check-circle' : 'fa-exclamation-circle'}"></i>
+                    <p>${message}</p>
+                </div>
+                <button class="notification-close"><i class="fas fa-times"></i></button>
+            `;
+            
+            // Add to DOM
+            document.body.appendChild(notification);
+            
+            // Animate in
+            setTimeout(() => {
+                notification.classList.add('active');
+            }, 10);
+            
+            // Close button
+            const closeBtn = notification.querySelector('.notification-close');
+            closeBtn.addEventListener('click', () => {
+                notification.classList.remove('active');
+                setTimeout(() => {
+                    document.body.removeChild(notification);
+                }, 300);
+            });
+            
+            // Auto close after 5 seconds
+            setTimeout(() => {
+                if (document.body.contains(notification)) {
+                    notification.classList.remove('active');
+                    setTimeout(() => {
+                        if (document.body.contains(notification)) {
+                            document.body.removeChild(notification);
+                        }
+                    }, 300);
+                }
+            }, 5000);
+        }
+
+        // Smooth Scrolling for Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70,
+                        behavior: 'smooth'
+                    });
+                    
+                    // Update active link
+                    document.querySelectorAll('.nav-links a').forEach(link => {
+                        link.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                }
+            });
+        });
+
+        // Counter Animation for Stats
+        function animateCounter(element, target, duration) {
+            let start = 0;
+            const increment = target > 100 ? 25 : 1;
+            const stepTime = Math.abs(Math.floor(duration / (target / increment)));
+            
+            const timer = setInterval(() => {
+                start += increment;
+                element.textContent = start + (target > 100 ? '+' : '%');
+                if (start >= target) {
+                    element.textContent = target + (target > 100 ? '+' : '%');
+                    clearInterval(timer);
+                }
+            }, stepTime);
+        }
+
+        // Initialize counters when they come into view
+        const statNumbers = document.querySelectorAll('.stat-number');
+        const statObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const target = parseInt(entry.target.getAttribute('data-count'));
+                    animateCounter(entry.target, target, 2000);
+                    statObserver.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.5 });
+
+        statNumbers.forEach(number => {
+            statObserver.observe(number);
+        });
+
+        // Dark Mode Toggle
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const body = document.body;
+        
+        // Check for saved theme preference
+        if (localStorage.getItem('darkMode') === 'enabled') {
+            body.classList.add('dark-mode');
+            darkModeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+        }
+        
+        darkModeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('darkMode', 'enabled');
+                darkModeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+            } else {
+                localStorage.setItem('darkMode', 'disabled');
+                darkModeToggle.innerHTML = '<i class="fas fa-moon"></i>';
+            }
+        });
+
+        // Active navigation highlighting based on scroll position
+        const sections = document.querySelectorAll('section[id]');
+        
+        window.addEventListener('scroll', () => {
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                
+                if (pageYOffset >= (sectionTop - 100)) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Parallax effect for hero section
+        window.addEventListener('scroll', () => {
+            const scrollPosition = window.pageYOffset;
+            const heroImage = document.querySelector('.hero-image');
+            
+            if (heroImage) {
+                heroImage.style.backgroundPositionY = `${scrollPosition * 0.5}px`;
+            }
+        });
+
+        // Drug Facts Slider
+        const drugFacts = [
+            "Marijuana affects brain development. When used during adolescence, it can impair thinking, memory, and learning functions.",
+            "Prescription drug misuse is a significant problem, with over 18 million people misusing medications at least once in the past year.",
+            "Methamphetamine is highly addictive and can cause severe dental problems, known as 'meth mouth,' along with skin sores and extreme weight loss.",
+            "Opioids, including heroin and fentanyl, are responsible for the majority of drug overdose deaths worldwide."
+        ];
+
+        let currentFactIndex = 0;
+        const factContent = document.getElementById('factContent');
+        const factDots = document.querySelectorAll('.fact-dot');
+
+        factDots.forEach(dot => {
+            dot.addEventListener('click', () => {
+                currentFactIndex = parseInt(dot.getAttribute('data-index'));
+                updateFact();
+            });
+        });
+
+        function updateFact() {
+            factContent.style.opacity = '0';
+            setTimeout(() => {
+                factContent.textContent = drugFacts[currentFactIndex];
+                factContent.style.opacity = '1';
+                
+                // Update active dot
+                factDots.forEach(dot => {
+                    dot.classList.remove('active');
+                });
+                factDots[currentFactIndex].classList.add('active');
+            }, 300);
+        }
+
+        // Auto-rotate facts
+        setInterval(() => {
+            currentFactIndex = (currentFactIndex + 1) % drugFacts.length;
+            updateFact();
+        }, 5000);
+
+        // Testimonial Slider
+        const testimonialSlides = document.querySelectorAll('.testimonial-slide');
+        const testimonialDots = document.querySelectorAll('.testimonial-dot');
+        const prevTestimonialBtn = document.getElementById('prevTestimonial');
+        const nextTestimonialBtn = document.getElementById('nextTestimonial');
+        let currentTestimonialIndex = 0;
+
+        function showTestimonial(index) {
+            testimonialSlides.forEach(slide => {
+                slide.classList.remove('active');
+            });
+            testimonialDots.forEach(dot => {
+                dot.classList.remove('active');
+            });
+            
+            testimonialSlides[index].classList.add('active');
+            testimonialDots[index].classList.add('active');
+        }
+
+        testimonialDots.forEach(dot => {
+            dot.addEventListener('click', () => {
+                currentTestimonialIndex = parseInt(dot.getAttribute('data-index'));
+                showTestimonial(currentTestimonialIndex);
+            });
+        });
+
+        prevTestimonialBtn.addEventListener('click', () => {
+            currentTestimonialIndex = (currentTestimonialIndex - 1 + testimonialSlides.length) % testimonialSlides.length;
+            showTestimonial(currentTestimonialIndex);
+        });
+
+        nextTestimonialBtn.addEventListener('click', () => {
+            currentTestimonialIndex = (currentTestimonialIndex + 1) % testimonialSlides.length;
+            showTestimonial(currentTestimonialIndex);
+        });
+
+        // Auto-rotate testimonials
+        setInterval(() => {
+            currentTestimonialIndex = (currentTestimonialIndex + 1) % testimonialSlides.length;
+            showTestimonial(currentTestimonialIndex);
+        }, 8000);
+
+        // Interactive Map
+        const mapMarkers = [
+            { id: 1, name: "Hope Rehabilitation Center", description: "A premier rehabilitation facility offering comprehensive treatment programs for drug addiction.", link: "#", x: 30, y: 40 },
+            { id: 2, name: "New Life Recovery", description: "Specializing in holistic approaches to addiction recovery with personalized treatment plans.", link: "#", x: 50, y: 60 },
+            { id: 3, name: "Serenity Wellness Center", description: "Providing both inpatient and outpatient services with a focus on mental health and addiction.", link: "#", x: 70, y: 30 },
+            { id: 4, name: "Sunrise Rehabilitation", description: "A government-supported facility offering free treatment for economically disadvantaged patients.", link: "#", x: 40, y: 70 },
+            { id: 5, name: "Healing Hands Center", description: "Specializing in youth rehabilitation with family counseling and educational programs.", link: "#", x: 60, y: 50 }
+        ];
+
+        const map = document.querySelector('.map');
+        const mapPopup = document.getElementById('mapPopup');
+        const mapPopupTitle = document.getElementById('mapPopupTitle');
+        const mapPopupContent = document.getElementById('mapPopupContent');
+        const mapPopupLink = document.getElementById('mapPopupLink');
+        const mapPopupClose = document.getElementById('mapPopupClose');
+
+        // Create markers
+        mapMarkers.forEach(marker => {
+            const markerElement = document.createElement('div');
+            markerElement.className = 'map-marker';
+            markerElement.style.left = `${marker.x}%`;
+            markerElement.style.top = `${marker.y}%`;
+            markerElement.setAttribute('data-id', marker.id);
+            
+            markerElement.addEventListener('click', () => {
+                mapPopupTitle.textContent = marker.name;
+                mapPopupContent.textContent = marker.description;
+                mapPopupLink.setAttribute('href', marker.link);
+                mapPopup.classList.add('active');
+            });
+            
+            map.appendChild(markerElement);
+        });
+
+        mapPopupClose.addEventListener('click', () => {
+            mapPopup.classList.remove('active');
+        });
+
+        // Interactive Quiz
+        const quizQuestions = [
+            {
+                question: "Which of the following is NOT a common sign of drug addiction?",
+                options: [
+                    { text: "Sudden weight loss or gain", marker: "A" },
+                    { text: "Improved academic performance", marker: "B" },
+                    { text: "Changes in sleep patterns", marker: "C" },
+                    { text: "Financial problems", marker: "D" }
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "Which drug is classified as an opioid?",
+                options: [
+                    { text: "Cocaine", marker: "A" },
+                    { text: "LSD", marker: "B" },
+                    { text: "Heroin", marker: "C" },
+                    { text: "MDMA (Ecstasy)", marker: "D" }
+                ],
+                correctAnswer: 2
+            },
+            {
+                question: "What is the most commonly used illicit drug?",
+                options: [
+                    { text: "Cocaine", marker: "A" },
+                    { text: "Heroin", marker: "B" },
+                    { text: "Methamphetamine", marker: "C" },
+                    { text: "Marijuana", marker: "D" }
+                ],
+                correctAnswer: 3
+            },
+            {
+                question: "Which of the following is a long-term effect of methamphetamine use?",
+                options: [
+                    { text: "Improved cognitive function", marker: "A" },
+                    { text: "Dental problems", marker: "B" },
+                    { text: "Increased appetite", marker: "C" },
+                    { text: "Lower blood pressure", marker: "D" }
+                ],
+                correctAnswer: 1
+            },
+            {
+                question: "What is the most effective approach to drug addiction treatment?",
+                options: [
+                    { text: "Punishment and incarceration", marker: "A" },
+                    { text: "Quitting cold turkey without support", marker: "B" },
+                    { text: "Comprehensive treatment addressing physical, psychological, and social factors", marker: "C" },
+                    { text: "Medication alone", marker: "D" }
+                ],
+                correctAnswer: 2
+            }
+        ];
+
+        const quizContent = document.getElementById('quizContent');
+        const quizProgressBar = document.getElementById('quizProgressBar');
+        const quizPrevBtn = document.getElementById('quizPrevBtn');
+        const quizNextBtn = document.getElementById('quizNextBtn');
+        const quizResult = document.getElementById('quizResult');
+        const quizScore = document.getElementById('quizScore');
+        const quizFeedback = document.getElementById('quizFeedback');
+        const quizRestartBtn = document.getElementById('quizRestartBtn');
+
+        let currentQuestionIndex = 0;
+        let userAnswers = new Array(quizQuestions.length).fill(null);
+        let quizCompleted = false;
+
+        function renderQuestion() {
+            const question = quizQuestions[currentQuestionIndex];
+            
+            let optionsHTML = '';
+            question.options.forEach((option, index) => {
+                const isSelected = userAnswers[currentQuestionIndex] === index;
+                optionsHTML += `
+                    <div class="quiz-option ${isSelected ? 'selected' : ''}" data-index="${index}">
+                        <div class="quiz-option-marker">${option.marker}</div>
+                        ${option.text}
+                    </div>
+                `;
+            });
+            
+            quizContent.innerHTML = `
+                <h3 class="quiz-question">Question ${currentQuestionIndex + 1}: ${question.question}</h3>
+                <div class="quiz-options">
+                    ${optionsHTML}
+                </div>
+            `;
+            
+            // Update progress bar
+            quizProgressBar.style.width = `${((currentQuestionIndex + 1) / quizQuestions.length) * 100}%`;
+            
+            // Update buttons
+            quizPrevBtn.style.display = currentQuestionIndex === 0 ? 'none' : 'block';
+            quizNextBtn.textContent = currentQuestionIndex === quizQuestions.length - 1 ? 'Finish' : 'Next';
+            
+            // Add event listeners to options
+            document.querySelectorAll('.quiz-option').forEach(option => {
+                option.addEventListener('click', () => {
+                    const index = parseInt(option.getAttribute('data-index'));
+                    userAnswers[currentQuestionIndex] = index;
+                    renderQuestion(); // Re-render to update selected state
+                });
+            });
+        }
+
+        function showQuizResult() {
+            quizContent.style.display = 'none';
+            document.querySelector('.quiz-footer').style.display = 'none';
+            quizResult.style.display = 'block';
+            
+            // Calculate score
+            let correctAnswers = 0;
+            userAnswers.forEach((answer, index) => {
+                if (answer === quizQuestions[index].correctAnswer) {
+                    correctAnswers++;
+                }
+            });
+            
+            const scorePercentage = (correctAnswers / quizQuestions.length) * 100;
+            quizScore.textContent = `Your Score: ${correctAnswers}/${quizQuestions.length} (${scorePercentage}%)`;
+            
+            // Provide feedback based on score
+            if (scorePercentage >= 80) {
+                quizFeedback.textContent = "Excellent! You have a strong understanding of drug awareness.";
+            } else if (scorePercentage >= 60) {
+                quizFeedback.textContent = "Good job! You have a decent understanding, but there's room for improvement.";
+            } else {
+                quizFeedback.textContent = "You might want to learn more about drug awareness. Check out our resources section.";
+            }
+        }
+
+        function initQuiz() {
+            currentQuestionIndex = 0;
+            userAnswers = new Array(quizQuestions.length).fill(null);
+            quizCompleted = false;
+            
+            quizContent.style.display = 'block';
+            document.querySelector('.quiz-footer').style.display = 'flex';
+            quizResult.style.display = 'none';
+            
+            renderQuestion();
+        }
+
+        quizPrevBtn.addEventListener('click', () => {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                renderQuestion();
+            }
+        });
+
+        quizNextBtn.addEventListener('click', () => {
+            if (currentQuestionIndex < quizQuestions.length - 1) {
+                currentQuestionIndex++;
+                renderQuestion();
+            } else {
+                quizCompleted = true;
+                showQuizResult();
+            }
+        });
+
+        quizRestartBtn.addEventListener('click', initQuiz);
+
+        // Initialize quiz
+        initQuiz();
+
+        // Add keyboard navigation for accessibility
+        document.addEventListener('keydown', (e) => {
+            // Escape key closes mobile menu
+            if (e.key === 'Escape' && mobileMenu.classList.contains('active')) {
+                closeMenu();
+            }
+            
+            // Escape key closes map popup
+            if (e.key === 'Escape' && mapPopup.classList.contains('active')) {
+                mapPopup.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>
